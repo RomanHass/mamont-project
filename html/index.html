@@ -1,0 +1,1047 @@
+@@include('../html/parts/head.html')
+
+<div class="wrapper">
+    <header class="header">
+        <div class="container">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="header__inner">
+                <a class="header__logo logo" href="#">
+                    <img class="header__logo-img logo__img" src="images/logo.png" alt="Логотип">
+                </a>
+                <nav class="header__menu">
+                    <ul class="header__list">
+                        <li class="header__item">
+                            <a class="header__link" href="company.html">О компании</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="service.html">Услуги</a>
+                        </li>
+                        <li class="header__item">
+                            <a data-goto=".reviews" class="header__link" href="#">Отзывы</a>
+                        </li>
+                        <li class="header__item">
+                            <a data-goto=".scheme" class="header__link" href="#">Как мы работаем</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="news.html">Новости</a>
+                        </li>
+                        <li class="header__item">
+                            <a class="header__link" href="contacts.html">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__contacts">
+                    <a class="header__tel" href="tel:+78006006429">+78006006429</a>
+                    <a class="header__mail" href="mailto:yulya@mammoth-trans.com">yulya@mammoth-trans.com</a>
+                    <div class="header__lang">
+                        <a class="header__lang-link" href="#">
+                            <svg class="header__lang-icon" width="20" height="20">
+                                <use xlink:href="images/sprite.svg#american"></use>
+                            </svg>
+                            en
+                        </a>
+                        <a class="header__lang-link" href="#">
+                            <svg class="header__lang-icon" width="20" height="20">
+                                <use xlink:href="images/sprite.svg#russia"></use>
+                            </svg>
+                            ru
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main id="up" class="main">
+        <section class="page" style="background-image: url('images/page/page-bg.jpg');">
+            <div class="container">
+                <div class="page__content">
+                    <h1 class="page__title title">
+                        Коммерческое предложение по доставке любого груза
+                    </h1>
+                    <div class="page__subtitle">
+                        <p>
+                            Сформируем список ходовых товаров для закупа
+                        </p>
+                    </div>
+                    <div class="page__buttons">
+                        <a data-goto=".services" class="page__btn btn" href="#">
+                            Наши услуги
+                        </a>
+                        <a data-goto=".about" class="page__btn page__btn--opacity btn" href="#">
+                            О нас
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services">
+            <div class="container">
+                <h2 class="services__title title">Услуги</h2>
+                <div class="services__descr">
+                    <p>
+                        Компания Manzhouli Mammoth International Freight Forwarding Co..Ltd. предоставляет услуги
+                        перевозок
+                        грузов всеми видами транспорта по Китаю, а так же к ним необходимые услуги, как хранение груза,
+                        таможенное оформление (импорт, экспорт). Российское таможенное оформление. Обеспечим оптимальную
+                        схему логистики с учетом экономии на таможенных платежах.
+                    </p>
+                </div>
+                <ul class="services__list">
+                    <li class="services__item">
+                        <div class="services__content">
+                            <div class="services__image">
+                                <img class="services__picture" src="images/services/01.png" alt="">
+                            </div>
+                            <div class="services__text">
+                                <p>
+                                    Сборный груз и комплект машина
+                                    из любой точки Китая
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="services__item">
+                        <div class="services__content">
+                            <div class="services__image">
+                                <img class="services__picture" src="images/services/02.png" alt="">
+                            </div>
+                            <div class="services__text">
+                                <p>
+                                    Погрузка, разгрузка и камера хранения в Маньчжурии
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="services__item">
+                        <div class="services__content">
+                            <div class="services__image">
+                                <img class="services__picture" src="images/services/03.png" alt="">
+                            </div>
+                            <div class="services__text">
+                                <p>
+                                    Таможенное оформление
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="services__item">
+                        <div class="services__content">
+                            <div class="services__image">
+                                <img class="services__picture" src="images/services/04.png" alt="">
+                            </div>
+                            <div class="services__text">
+                                <p>
+                                    Доставка груза в любой город России
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="about" style="background-image: url('images/about/about-bg.jpg');">
+            <div class="container">
+                <h2 class="about__title title">О компании</h2>
+                <div class="about__inner">
+                    <div class="about__images">
+                        <div class="about__image">
+                            <img class="about__picture about__picture--one" src="images/about/01.jpg" alt="">
+                        </div>
+                        <div class="about__image">
+                            <img class="about__picture about__picture--two" src="images/about/02.jpg" alt="">
+                            <img class="about__picture about__picture--three" src="images/about/03.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="about__content">
+                        <p class="about__text">
+                            Компания Manzhouli Mammoth International Freight Forwarding Co..Ltd., заняло перспективную и
+                            весьма востребованную нишу в логистике по Китаю, организуем перевозки (включая опасные,
+                            негабаритные, требующие соблюдения терморежима и т.д.), как в экспортно так и в импортном
+                            направлении. География наших возможностей практически не имеет ограничений. Мы,
+                            специализируемся, как на комплект машинах, так и на сборных грузоперевозках. Можем
+                            экономично и
+                            быстро доставлять груз из любой точки Китая, оказывая полный комплекс услуг, таких как:
+                            оформление пакета экспортных и товаросопроводительных документов; промежуточное
+                            складирование;
+                            профессионально выполняем импортное таможенное оформление грузов в России.
+                        </p>
+                        <p class="about__text">
+                            Большой опыт на рынке позволяет нам еженедельно доставлять более 200 тонн грузов из Китая в
+                            Россию.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="advantages">
+            <div class="container">
+                <h2 class="advantages__title title">Наши преимущества</h2>
+                <ul class="advantages__columns">
+                    <li class="advantages__column">
+                        <div class="advantages__image">
+                            <img class="advantages__picture" src="images/advantages/01.jpg"
+                                alt="Изображение контейнере с грузом">
+                            <div class="advantages__text">
+                                <p>
+                                    Доставка грузов из Китая
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="advantages__column">
+                        <div class="advantages__image">
+                            <img class="advantages__picture" src="images/advantages/02.jpg"
+                                alt="Изображение китайских бизнесменов">
+                            <div class="advantages__text">
+                                <p>
+                                    Успешный бизнес с Китаем
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="advantages__descr">
+                    <p>
+                        Доставка товаров народного потребления, а также оборудования, спецтехники и прочей продукции из
+                        Китая может быть реализована несколькими способами
+                    </p>
+                </div>
+                <div class="advantages__heading">
+                    <p>
+                        Варианты транспортировки товаров:
+                    </p>
+                </div>
+                <ul class="advantages__list">
+                    <li class="advantages__item">
+                        <svg class="advantages__icon" width="92" height="79">
+                            <use xlink:href="images/sprite.svg#transportation--01"></use>
+                        </svg>
+                        <div class="advantages__desc">
+                            <p>
+                                Автотраснпорт;
+                            </p>
+                        </div>
+                    </li>
+                    <li class="advantages__item advantages__item--padding">
+                        <svg class="advantages__icon" width="92" height="72">
+                            <use xlink:href="images/sprite.svg#transportation--02"></use>
+                        </svg>
+                        <div class="advantages__desc">
+                            <p>
+                                Авиатранспорт;
+                            </p>
+                        </div>
+                    </li>
+                    <li class="advantages__item">
+                        <svg class="advantages__icon" width="86" height="70">
+                            <use xlink:href="images/sprite.svg#transportation--03"></use>
+                        </svg>
+                        <div class="advantages__desc">
+                            <p>
+                                Железнодорожное сообщение;
+                            </p>
+                        </div>
+                    </li>
+                    <li class="advantages__item advantages__item--padding">
+                        <svg class="advantages__icon" width="85" height="70">
+                            <use xlink:href="images/sprite.svg#transportation--04"></use>
+                        </svg>
+                        <div class="advantages__desc">
+                            <p>
+                                Мультимодальная доставка (море, ж/д, авто).
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="advantages__inner">
+                    <div class="advantages__content">
+                        <div class="advantages__img">
+                            <img class="advantages__pic" src="images/advantages/03.png" alt="">
+                        </div>
+                        <div class="advantages__txt">
+                            <p>
+                                Одним из факторов, формирующих стоимость доставки грузов из Китая выступает вид
+                                транспорта.
+                                Чем
+                                быстрее вы хотите получить свой товар, тем дороже обойдется его транспортировка. Таким
+                                образом,
+                                перевозка авиалиниями будет значительно дороже, чем маршрут по морю.
+                                Таможенное оформление и доставка грузов из Китая – процедура сложная, требующая
+                                комплексного
+                                подхода. Необходимо не только подобрать оптимальную схему логистики, но и грамотно
+                                решить
+                                задачу
+                                с таможенным оформлением, учитывая специфику продукции.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="scheme" class="scheme" style="background-image: url('images/scheme/scheme-bg.jpg');">
+            <div class="container">
+                <h1 class="scheme__title title">Схема работы</h1>
+                <ul class="scheme__list">
+                    <li class="scheme__item">
+                        <div class="scheme__image">
+                            <img class="scheme__picture" src="images/scheme/01.png" alt="">
+                        </div>
+                        <div class="scheme__descr">
+                            <p>
+                                Запрос клиента
+                            </p>
+                        </div>
+                    </li>
+                    <li class="scheme__item">
+                        <div class="scheme__image">
+                            <img class="scheme__picture" src="images/scheme/02.png" alt="">
+                        </div>
+                        <div class="scheme__descr">
+                            <p>
+                                Расчет стоимости
+                            </p>
+                        </div>
+                    </li>
+                    <li class="scheme__item">
+                        <div class="scheme__image">
+                            <img class="scheme__picture" src="images/scheme/03.png" alt="">
+                        </div>
+                        <div class="scheme__descr">
+                            <p>
+                                Оформление заявки
+                            </p>
+                        </div>
+                    </li>
+                    <li class="scheme__item">
+                        <div class="scheme__image">
+                            <img class="scheme__picture" src="images/scheme/04.png" alt="">
+                        </div>
+                        <div class="scheme__descr">
+                            <p>
+                                Изъятие груза у отправителя
+                            </p>
+                        </div>
+                    </li>
+                    <li class="scheme__item">
+                        <div class="scheme__image">
+                            <img class="scheme__picture" src="images/scheme/05.png" alt="">
+                        </div>
+                        <div class="scheme__descr">
+                            <p>
+                                Доставка на ваш склад
+                            </p>
+                        </div>
+                    </li>
+                    <li class="scheme__item">
+                        <div class="scheme__image">
+                            <img class="scheme__picture" src="images/scheme/06.png" alt="">
+                        </div>
+                        <div class="scheme__descr">
+                            <p>
+                                Доставка получателю
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="reviews" class="reviews">
+            <div class="container">
+                <h2 class="reviews__title title">Отзывы</h2>
+                <ul class="reviews__list">
+                    <li class="reviews__item">
+                        <div class="reviews__body">
+                            <div class="reviews__user">
+                                <div class="reviews__image">
+                                    <img class="reviews__photo" src="images/reviews/01.jpg" alt="">
+                                </div>
+                                <div class="reviews__name">
+                                    <svg class="reviews__icon" width="30" height="25">
+                                        <use xlink:href="images/sprite.svg#apostrophe"></use>
+                                    </svg>
+                                    Иван Иванов
+                                    <div class="star" data-rateyo-rating="5"></div>
+                                </div>
+                            </div>
+                            <div class="reviews__descr">
+                                <p>
+                                    Lorem Ipsum - это текст рыба, часто используемый в печати и веб-дизайне. Lorem Ipsum
+                                    является стандартной рыбой для текстов на латинице с начала XVI века.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="reviews__item">
+                        <div class="reviews__body">
+                            <div class="reviews__user">
+                                <div class="reviews__image">
+                                    <img class="reviews__photo" src="images/reviews/02.jpg" alt="">
+                                </div>
+                                <div class="reviews__name">
+                                    <svg class="reviews__icon" width="30" height="25">
+                                        <use xlink:href="images/sprite.svg#apostrophe"></use>
+                                    </svg>
+                                    Иван Иванов
+                                    <div class="star" data-rateyo-rating="5"></div>
+                                </div>
+                            </div>
+                            <div class="reviews__descr">
+                                <p>
+                                    Lorem Ipsum - это текст рыба, часто используемый в печати и веб-дизайне. Lorem Ipsum
+                                    является стандартной рыбой для текстов на латинице с начала XVI века.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="reviews__item">
+                        <div class="reviews__body">
+                            <div class="reviews__user">
+                                <div class="reviews__image">
+                                    <img class="reviews__photo" src="images/reviews/03.jpg" alt="">
+                                </div>
+                                <div class="reviews__name">
+                                    <svg class="reviews__icon" width="30" height="25">
+                                        <use xlink:href="images/sprite.svg#apostrophe"></use>
+                                    </svg>
+                                    Иван Иванов
+                                    <div class="star" data-rateyo-rating="5"></div>
+                                </div>
+                            </div>
+                            <div class="reviews__descr">
+                                <p>
+                                    Lorem Ipsum - это текст рыба, часто используемый в печати и веб-дизайне. Lorem Ipsum
+                                    является стандартной рыбой для текстов на латинице с начала XVI века.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="reviews__item">
+                        <div class="reviews__body">
+                            <div class="reviews__user">
+                                <div class="reviews__image">
+                                    <img class="reviews__photo" src="images/reviews/02.jpg" alt="">
+                                </div>
+                                <div class="reviews__name">
+                                    <svg class="reviews__icon" width="30" height="25">
+                                        <use xlink:href="images/sprite.svg#apostrophe"></use>
+                                    </svg>
+                                    Иван Иванов
+                                    <div class="star" data-rateyo-rating="5"></div>
+                                </div>
+                            </div>
+                            <div class="reviews__descr">
+                                <p>
+                                    Lorem Ipsum - это текст рыба, часто используемый в печати и веб-дизайне. Lorem Ipsum
+                                    является стандартной рыбой для текстов на латинице с начала XVI века.
+                                </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="team" style="background-image: url('images/main-bg.png');">
+            <div class="container">
+                <h2 class="team__title title">Наша команда</h2>
+                <ul class="team__list items">
+                    <li class="items__item">
+                        <div class="items__man">
+                            <img src="images/team/01.jpg" alt="Фотография руководтель Николая У-Лина">
+                            <div class="items__face">
+                                <div class="items__name">
+                                    Николай У-Лин
+                                </div>
+                                <span class="items__position">
+                                    Руководитель
+                                </span>
+                            </div>
+                        </div>
+                        <ul class="items__social">
+                            <li class="items__element">
+                                <a class="items__link" href="mailto:2881286630@qq.com">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#email"></use>
+                                    </svg>
+                                    2881286630@qq.com
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="tel:+8613948098483">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#phone"></use>
+                                    </svg>
+                                    +8613948098483
+                                </a>
+                                <a class="items__link items__link--phone" href="tel:+04706227334">
+                                    +04706227334
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="#">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#vk"></use>
+                                    </svg>
+                                    @expressmir
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="#">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#pinguin"></use>
+                                    </svg>
+                                    2881286630
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="#">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#whatsapp"></use>
+                                    </svg>
+                                    +8618847050968
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="items__item">
+                        <div class="items__man">
+                            <img src="images/team/02.jpg" alt="Фотография директора Дмитрия">
+                            <div class="items__face">
+                                <div class="items__name">
+                                    Дмитрий
+                                </div>
+                                <span class="items__position">
+                                    Директор
+                                </span>
+                            </div>
+                        </div>
+                        <ul class="items__social">
+                            <li class="items__element">
+                                <a class="items__link" href="mailto:2881286630@qq.com">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#email"></use>
+                                    </svg>
+                                    2881286630@qq.com
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="tel:+8613948098483">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#phone"></use>
+                                    </svg>
+                                    +8613948098483
+                                </a>
+                                <a class="items__link items__link--phone" href="tel:+04706227334">
+                                    +04706227334
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="#">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#vk"></use>
+                                    </svg>
+                                    @expressmir
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="#">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#pinguin"></use>
+                                    </svg>
+                                    2881286630
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="#">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#whatsapp"></use>
+                                    </svg>
+                                    +8618847050968
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="items__item">
+                        <div class="items__man">
+                            <img src="images/team/03.jpg" alt="Фотография менеджер по продажам Ян Яньхуна">
+                            <div class="items__face">
+                                <div class="items__name">
+                                    Ян Яньхун
+                                </div>
+                                <span class="items__position">
+                                    Менеджер по продажам
+                                </span>
+                            </div>
+                        </div>
+                        <ul class="items__social">
+                            <li class="items__element">
+                                <a class="items__link" href="mailto:2881286630@qq.com">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#email"></use>
+                                    </svg>
+                                    2881286630@qq.com
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="tel:+8613948098483">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#phone"></use>
+                                    </svg>
+                                    +8613948098483
+                                </a>
+                                <a class="items__link items__link--phone" href="tel:+04706227334">
+                                    +04706227334
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="#">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#vk"></use>
+                                    </svg>
+                                    @expressmir
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="#">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#pinguin"></use>
+                                    </svg>
+                                    2881286630
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="#">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#whatsapp"></use>
+                                    </svg>
+                                    +8618847050968
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="items__item">
+                        <div class="items__man">
+                            <img src="images/team/04.jpg" alt="Фотография директора Дмитрия">
+                            <div class="items__face">
+                                <div class="items__name">
+                                    Дмитрий
+                                </div>
+                                <span class="items__position">
+                                    Директор
+                                </span>
+                            </div>
+                        </div>
+                        <ul class="items__social">
+                            <li class="items__element">
+                                <a class="items__link" href="mailto:2881286630@qq.com">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#email"></use>
+                                    </svg>
+                                    2881286630@qq.com
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="tel:+8613948098483">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#phone"></use>
+                                    </svg>
+                                    +8613948098483
+                                </a>
+                                <a class="items__link items__link--phone" href="tel:+04706227334">
+                                    +04706227334
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="#">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#vk"></use>
+                                    </svg>
+                                    @expressmir
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="#">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#pinguin"></use>
+                                    </svg>
+                                    2881286630
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="#">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#whatsapp"></use>
+                                    </svg>
+                                    +8618847050968
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="items__item">
+                        <div class="items__man">
+                            <img src="images/team/05.jpg" alt="Фотография переводчика Громовы Юлии">
+                            <div class="items__face">
+                                <div class="items__name">
+                                    Громова Юлия
+                                </div>
+                                <span class="items__position">
+                                    Переводчик
+                                </span>
+                            </div>
+                        </div>
+                        <ul class="items__social">
+                            <li class="items__element">
+                                <a class="items__link" href="mailto:2881286630@qq.com">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#email"></use>
+                                    </svg>
+                                    2881286630@qq.com
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="tel:+8613948098483">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#phone"></use>
+                                    </svg>
+                                    +8613948098483
+                                </a>
+                                <a class="items__link items__link--phone" href="tel:+04706227334">
+                                    +04706227334
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="#">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#vk"></use>
+                                    </svg>
+                                    @expressmir
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="#">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#pinguin"></use>
+                                    </svg>
+                                    2881286630
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="#">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#whatsapp"></use>
+                                    </svg>
+                                    +8618847050968
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="items__item">
+                        <div class="items__man">
+                            <img src="images/team/06.jpg" alt="Фотография менеджера по продажам Ян Яньхуна">
+                            <div class="items__face">
+                                <div class="items__name">
+                                    Ян Яньхун
+                                </div>
+                                <span class="items__position">
+                                    Менеджер по продажам
+                                </span>
+                            </div>
+                        </div>
+                        <ul class="items__social">
+                            <li class="items__element">
+                                <a class="items__link" href="mailto:2881286630@qq.com">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#email"></use>
+                                    </svg>
+                                    2881286630@qq.com
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="tel:+8613948098483">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#phone"></use>
+                                    </svg>
+                                    +8613948098483
+                                </a>
+                                <a class="items__link items__link--phone" href="tel:+04706227334">
+                                    +04706227334
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="#">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#vk"></use>
+                                    </svg>
+                                    @expressmir
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="#">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#pinguin"></use>
+                                    </svg>
+                                    2881286630
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="#">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#whatsapp"></use>
+                                    </svg>
+                                    +8618847050968
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="items__item">
+                        <div class="items__man">
+                            <img src="images/team/07.jpg" alt="Фотография директора Дмитрия">
+                            <div class="items__face">
+                                <div class="items__name">
+                                    Дмитрий
+                                </div>
+                                <span class="items__position">
+                                    Директор
+                                </span>
+                            </div>
+                        </div>
+                        <ul class="items__social">
+                            <li class="items__element">
+                                <a class="items__link" href="mailto:2881286630@qq.com">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#email"></use>
+                                    </svg>
+                                    2881286630@qq.com
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="tel:+8613948098483">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#phone"></use>
+                                    </svg>
+                                    +8613948098483
+                                </a>
+                                <a class="items__link items__link--phone" href="tel:+04706227334">
+                                    +04706227334
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="#">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#vk"></use>
+                                    </svg>
+                                    @expressmir
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="#">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#pinguin"></use>
+                                    </svg>
+                                    2881286630
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="#">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#whatsapp"></use>
+                                    </svg>
+                                    +8618847050968
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="items__item">
+                        <div class="items__man">
+                            <img src="images/team/08.jpg" alt="Фотография переводчика Громовы Юлии">
+                            <div class="items__face">
+                                <div class="items__name">
+                                    Громова Юлия
+                                </div>
+                                <span class="items__position">
+                                    Переводчик
+                                </span>
+                            </div>
+                        </div>
+                        <ul class="items__social">
+                            <li class="items__element">
+                                <a class="items__link" href="mailto:2881286630@qq.com">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#email"></use>
+                                    </svg>
+                                    2881286630@qq.com
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="tel:+8613948098483">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#phone"></use>
+                                    </svg>
+                                    +8613948098483
+                                </a>
+                                <a class="items__link items__link--phone" href="tel:+04706227334">
+                                    +04706227334
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="#">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#vk"></use>
+                                    </svg>
+                                    @expressmir
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="#">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#pinguin"></use>
+                                    </svg>
+                                    2881286630
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="#">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#whatsapp"></use>
+                                    </svg>
+                                    +8618847050968
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="items__item">
+                        <div class="items__man">
+                            <img src="images/team/09.jpg" alt="Фотография менеджер по продажам Ян Яньхуна">
+                            <div class="items__face">
+                                <div class="items__name">
+                                    Ян Яньхун
+                                </div>
+                                <span class="items__position">
+                                    Менеджер по продажам
+                                </span>
+                            </div>
+                        </div>
+                        <ul class="items__social">
+                            <li class="items__element">
+                                <a class="items__link" href="mailto:2881286630@qq.com">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#email"></use>
+                                    </svg>
+                                    2881286630@qq.com
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="tel:+8613948098483">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#phone"></use>
+                                    </svg>
+                                    +8613948098483
+                                </a>
+                                <a class="items__link items__link--phone" href="tel:+04706227334">
+                                    +04706227334
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="#">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#vk"></use>
+                                    </svg>
+                                    @expressmir
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="#">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#pinguin"></use>
+                                    </svg>
+                                    2881286630
+                                </a>
+                            </li>
+                            <li class="items__element">
+                                <a class="items__link" href="#">
+                                    <svg class="items__icon" width="15" height="15">
+                                        <use xlink:href="images/sprite.svg#whatsapp"></use>
+                                    </svg>
+                                    +8618847050968
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="blog">
+            <div class="container">
+                <h2 class="blog__title title">Наш блог</h2>
+                <ul class="blog__list">
+                    <li class="blog__item blog__item--before" style="background-image: url('images/blog/01.jpg');">
+                        <a class="blog__link" href="#"></a>
+                        <div class="blog__descr">
+                            <p>
+                                Помощь в выборе товара или фабрики для выпуска
+                            </p>
+                        </div>
+                    </li>
+                    <li class="blog__item" style="background-image: url('images/blog/02.jpg');">
+                        <a class="blog__link" href="#"></a>
+                        <div class="blog__descr blog__descr--black blog__descr--after">
+                            <p>
+                                Организация и контроль закупа
+                            </p>
+                        </div>
+                    </li>
+                    <li class="blog__item">
+                        <ul class="blog__elements">
+                            <li class="blog__elem">
+                                <a class="blog__link" href="#"></a>
+                                <span class="blog__elements-descr">
+                                    Логистика
+                                </span>
+                            </li>
+                            <li class="blog__elem" style="background-image: url('images/blog/03.jpg');">
+                                <a class="blog__link" href="#"></a>
+                                <span
+                                    class="blog__elements-descr blog__elements-descr--black blog__elements-descr--after">
+                                    Инспекции
+                                </span>
+                            </li>
+                            <li class="blog__elem" style="background-image: url('images/blog/04.jpg');">
+                                <a class="blog__link" href="#"></a>
+                                <span
+                                    class="blog__elements-descr blog__elements-descr--black blog__elements-descr--after">
+                                    Консультации
+                                </span>
+                            </li>
+                            <li class="blog__elem">
+                                <a class="blog__link" href="#"></a>
+                                <span class="blog__elements-descr">
+                                    Складской сервис
+                                </span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="blog__item blog__item--before" style="background-image: url('images/blog/05.jpg');">
+                        <a class="blog__link" href="#"></a>
+                        <div class="blog__descr blog__descr--after blog__descr--after--red">
+                            <p>
+                                Согласование и организация отгрузки контейнера
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        @@include('../html/parts/map.html')
+    </main>
+
+    @@include('../html/parts/footer.html')
+
+    @@include('../html/parts/pageup.html')
+
+
+</div>
+
+@@include('../html/parts/footer-scripts.html')
